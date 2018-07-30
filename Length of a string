@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    int L=0, i=0;
+    char str[30];
+    printf("Enter string");
+    scanf("%s",str);
+    while(str[i]!='\0')
+    {
+        i++;
+        L++;
+    }
+    printf("Length of the string is %d",L);
+    return 0;
+}
